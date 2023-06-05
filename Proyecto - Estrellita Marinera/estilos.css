@@ -1,0 +1,121 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header{
+  display: flex;  
+  min-height: 75px;
+  background-color: hotpink;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+h{
+  font-size: 50px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover{
+  color:rgb(171, 22, 97)
+}
+
+.jumbotron{
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align:center
+}
+
+h1{
+  color: hotpink;
+}
+
+p{
+  font-size: 25px;
+  color: navy
+  
+}
+
+label{
+  color: deeppink;
+  font-size: 20px;
+}
+
+.arteurbano img{
+  height: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.alinear{
+  width: 350px;
+  height: 250px;
+  margin: 0 5px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  color: hotpink;
+}
+
+footer{
+  background-color: hotpink;
+  padding: 1em 0;
+  width: 100%;
+  color: whitesmoke;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.logo{
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width:700px){
+  header{
+    flex-direction: column;
+  }
+
+  nav{
+    padding: 10px 0px;
+  }
+}
